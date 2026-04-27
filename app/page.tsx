@@ -66,7 +66,7 @@ export default function Home() {
           Serving the Bay Area since 1979.
         </p>
         <Link
-          href="/untitled"
+          href="/contact"
           className="inline-block bg-sage text-white px-8 py-3 rounded-sm text-sm tracking-wide hover:bg-sage/90 transition-colors"
         >
           Get a Free Estimate
@@ -143,7 +143,7 @@ export default function Home() {
         heading="Ready to Transform Your Outdoor Space?"
         subheading="Contact us today for a free, no-obligation estimate. We'll visit your property and help you choose the perfect solution."
         buttonText="Request Your Free Estimate"
-        buttonHref="/untitled"
+        buttonHref="/contact"
         variant="charcoal"
       />
     </>

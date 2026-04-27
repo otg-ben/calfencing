@@ -1,11 +1,12 @@
 import Link from "next/link";
+import { PhoneLink } from "@/components/PhoneLink";
 
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/products", label: "Products" },
   { href: "/gallery", label: "Gallery" },
-  { href: "/untitled", label: "Contact" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Footer() {
@@ -53,12 +54,9 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="tel:415-472-1419"
-                  className="hover:text-sage transition-colors"
-                >
+                <PhoneLink className="hover:text-sage transition-colors">
                   415-472-1419
-                </a>
+                </PhoneLink>
               </li>
               <li>
                 <a

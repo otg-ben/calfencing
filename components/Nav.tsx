@@ -9,7 +9,7 @@ const links = [
   { href: "/about", label: "About" },
   { href: "/products", label: "Products" },
   { href: "/gallery", label: "Gallery" },
-  { href: "/untitled", label: "Contact" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Nav() {
@@ -60,7 +60,7 @@ export default function Nav() {
             </Link>
           ))}
           <Link
-            href="/untitled"
+            href="/contact"
             className="bg-sage text-white px-5 py-2 rounded-sm text-sm tracking-wide hover:bg-sage/90 transition-colors"
           >
             Get a Free Estimate
@@ -116,7 +116,7 @@ export default function Nav() {
             </Link>
           ))}
           <Link
-            href="/untitled"
+            href="/contact"
             onClick={() => setMenuOpen(false)}
             className="block bg-sage text-white px-5 py-2 rounded-sm text-sm tracking-wide text-center hover:bg-sage/90 transition-colors"
           >

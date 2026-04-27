@@ -115,7 +115,7 @@ export default function Gallery() {
         heading="Like What You See?"
         subheading="Every project starts with a conversation. Tell us about yours and we'll make it happen."
         buttonText="Get a Free Estimate"
-        buttonHref="/untitled"
+        buttonHref="/contact"
       />
     </>
   );

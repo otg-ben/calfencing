@@ -114,7 +114,7 @@ export default function About() {
         heading="Let's Build Something Together"
         subheading="Whether it's a new fence, a custom deck, or a retaining wall — we'd love to hear about your project."
         buttonText="Get a Free Estimate"
-        buttonHref="/untitled"
+        buttonHref="/contact"
       />
     </>
   );
