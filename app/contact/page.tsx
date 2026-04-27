@@ -6,7 +6,7 @@ import type { FormEvent } from "react";
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [errors, setErrors] = useState<string[]>([]);
 
   useEffect(() => {
     if (submitted) {
@@ -19,7 +19,7 @@ export default function Contact() {
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitting(true);
-    setError(null);
+    setErrors([]);
     const form = e.currentTarget;
     const data = new FormData(form);
     try {
@@ -31,12 +31,15 @@ export default function Contact() {
       if (res.ok) {
         setSubmitted(true);
       } else {
-        const json = await res.json().catch(() => ({}));
-        const msg = (json as { error?: string }).error ?? 'Something went wrong. Please try again.';
-        setError(msg);
+        const json = await res.json().catch(() => ({})) as { errors?: { field: string; message: string }[] };
+        if (json.errors?.length) {
+          setErrors(json.errors.map(e => `${e.field ? e.field.charAt(0).toUpperCase() + e.field.slice(1) + ': ' : ''}${e.message}`));
+        } else {
+          setErrors(['Something went wrong. Please try again.']);
+        }
       }
     } catch {
-      setError('Something went wrong. Please try again.');
+      setErrors(['Something went wrong. Please try again.']);
     } finally {
       setSubmitting(false);
     }
@@ -157,8 +160,10 @@ export default function Contact() {
                     className="w-full border border-charcoal/20 rounded-sm px-4 py-2.5 text-sm bg-white focus:outline-none focus:border-sage transition-colors resize-none"
                   />
                 </div>
-                {error && (
-                  <p className="text-red-600 text-sm">{error}</p>
+                {errors.length > 0 && (
+                  <ul className="text-red-600 text-sm space-y-1">
+                    {errors.map((e, i) => <li key={i}>• {e}</li>)}
+                  </ul>
                 )}
                 <button
                   type="submit"
