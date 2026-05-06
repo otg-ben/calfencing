@@ -5,21 +5,21 @@ import TestimonialCard from "@/components/TestimonialCard";
 import SectionCTA from "@/components/SectionCTA";
 
 const heroImages = [
-  "/images/hero-fence-deck.jpg",
-  "/images/hero-deck-bench.jpg",
-  "/images/hero-wood-fence.jpg",
-  "/images/hero-fence-sky.jpg",
+  "/images/fence-cedar-horizontal-garden.jpg",
+  "/images/deck-mahogany-lighting.png",
+  "/images/fence-cedar-shrubs-flowers.jpg",
+  "/images/gate-cedar-driveway.jpg",
 ];
 
 const services = [
   {
-    image: "/images/backyard-fence.jpg",
+    image: "/images/fence-cedar-lattice-lavender.jpg",
     title: "Fencing",
     description:
       "Custom wood, vinyl, and composite fences designed to complement your property. Privacy, picket, horizontal — we build it all.",
   },
   {
-    image: "/images/deck-furniture.jpg",
+    image: "/images/deck-redwood-steps.png",
     title: "Decking",
     description:
       "Redwood and composite decks that extend your living space outdoors. Built to withstand the Bay Area climate for decades.",

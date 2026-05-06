@@ -9,64 +9,99 @@ export const metadata: Metadata = {
 
 const galleryImages = [
   {
-    src: "/images/hero-wood-fence.jpg",
-    alt: "Modern horizontal wood fence",
+    src: "/images/fence-cedar-shrubs-flowers.jpg",
+    alt: "Cedar privacy fence with garden planting",
     category: "Fencing",
   },
   {
-    src: "/images/deck-furniture.jpg",
-    alt: "Redwood deck with railing",
+    src: "/images/fence-cedar-horizontal-garden.jpg",
+    alt: "Horizontal cedar fence with landscaping",
+    category: "Fencing",
+  },
+  {
+    src: "/images/deck-mahogany-lighting.png",
+    alt: "Multi-level deck with built-in lighting",
     category: "Decking",
   },
   {
-    src: "/images/backyard-fence.jpg",
+    src: "/images/fence-cedar-lattice-lavender.jpg",
+    alt: "Cedar fence with lattice top and lavender planter",
+    category: "Fencing",
+  },
+  {
+    src: "/images/deck-redwood-steps.png",
+    alt: "Redwood deck with steps and built-in seating",
+    category: "Decking",
+  },
+  {
+    src: "/images/gate-cedar-driveway.jpg",
+    alt: "Horizontal cedar driveway gate",
+    category: "Gates",
+  },
+  {
+    src: "/images/fence-cedar-vertical-lattice.jpg",
+    alt: "Vertical cedar fence with lattice detail",
+    category: "Fencing",
+  },
+  {
+    src: "/images/deck-redwood-forest.png",
+    alt: "Redwood deck in wooded setting",
+    category: "Decking",
+  },
+  {
+    src: "/images/fence-hogwire-1.jpg",
+    alt: "Hog wire fence with wood frame",
+    category: "Fencing",
+  },
+  {
+    src: "/images/fence-cedar-ivy.jpg",
+    alt: "Cedar fence with ivy",
+    category: "Fencing",
+  },
+  {
+    src: "/images/fence-horizontal-patio.png",
+    alt: "Horizontal cedar fence with outdoor patio",
+    category: "Fencing",
+  },
+  {
+    src: "/images/fence-cedar-trees-1.jpg",
+    alt: "Cedar fence with mature trees",
+    category: "Fencing",
+  },
+  {
+    src: "/images/fence-hogwire-2.jpg",
+    alt: "Hog wire and wood fence",
+    category: "Fencing",
+  },
+  {
+    src: "/images/fence-composite-accent-wall.jpg",
+    alt: "Composite slat accent wall",
+    category: "Fencing",
+  },
+  {
+    src: "/images/fence-cedar-corner-garden.jpg",
+    alt: "Cedar fence corner with garden",
+    category: "Fencing",
+  },
+  {
+    src: "/images/fence-cedar-vertical-sky.jpg",
     alt: "Cedar privacy fence",
     category: "Fencing",
   },
   {
-    src: "/images/stone-wall.jpg",
-    alt: "Stone retaining wall",
-    category: "Retaining Walls",
-  },
-  {
-    src: "/images/hero-deck-bench.jpg",
-    alt: "Composite deck with built-in seating",
-    category: "Decking",
-  },
-  {
-    src: "/images/wood-gate.jpg",
-    alt: "Custom garden gate",
-    category: "Gates",
-  },
-  {
-    src: "/images/hero-fence-sky.jpg",
-    alt: "Classic picket fence",
+    src: "/images/fence-horizontal-corner.png",
+    alt: "Horizontal cedar fence corner",
     category: "Fencing",
   },
   {
-    src: "/images/garden-trellis.jpg",
-    alt: "Garden arbor and trellis",
-    category: "Trellises",
-  },
-  {
-    src: "/images/stone-steps.jpg",
-    alt: "Wood retaining wall with plantings",
-    category: "Retaining Walls",
-  },
-  {
-    src: "/images/hero-fence-deck.jpg",
-    alt: "Modern backyard fence",
+    src: "/images/fence-cedar-vertical-trees.jpg",
+    alt: "Cedar fence with trees",
     category: "Fencing",
   },
   {
-    src: "/images/stone-texture.jpg",
-    alt: "Patio deck with outdoor dining",
-    category: "Decking",
-  },
-  {
-    src: "/images/garden-trellis.jpg",
-    alt: "Custom driveway gate",
-    category: "Gates",
+    src: "/images/fence-cedar-trees-2.jpg",
+    alt: "Cedar fence with landscaping",
+    category: "Fencing",
   },
 ];
 

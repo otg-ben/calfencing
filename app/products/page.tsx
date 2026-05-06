@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const products = [
   {
     title: "Wood Fencing",
-    image: "/images/backyard-fence.jpg",
+    image: "/images/fence-horizontal-patio.png",
     description:
       "Redwood and cedar privacy fences, picket fences, and modern horizontal designs. Every fence is custom-built on site for a perfect fit.",
     features: [
@@ -21,7 +21,7 @@ const products = [
   },
   {
     title: "Composite & Vinyl Fencing",
-    image: "/images/hero-fence-sky.jpg",
+    image: "/images/fence-vinyl-dark.png",
     description:
       "Low-maintenance composite and vinyl fencing that looks great year after year. Ideal for coastal properties exposed to moisture and salt air.",
     features: [
@@ -32,7 +32,7 @@ const products = [
   },
   {
     title: "Decking",
-    image: "/images/deck-furniture.jpg",
+    image: "/images/deck-mahogany-lighting.png",
     description:
       "Custom decks in redwood, cedar, and composite materials. We design and build decks that extend your living space and complement your home's architecture.",
     features: [
@@ -54,7 +54,7 @@ const products = [
   },
   {
     title: "Gates & Arbors",
-    image: "/images/wood-gate.jpg",
+    image: "/images/gate-redwood-arbor.png",
     description:
       "Custom gates, arbors, and trellises that add character to your property. From simple garden gates to automated driveway entries.",
     features: [
